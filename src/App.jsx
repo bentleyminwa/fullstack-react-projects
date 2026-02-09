@@ -1,5 +1,11 @@
-function App() {
-  return <div className='text-red-500'>Fullstack React Blog App</div>
-}
+import { Post } from './components/Post'
 
-export default App
+export function App() {
+  return (
+    <Post
+      title='Fullstack React'
+      content='Learning fullstack React is fun!'
+      author='John Doe'
+    />
+  )
+}
