@@ -1,11 +1,14 @@
-import { Post } from './components/Post'
+// import { Post } from './components/Post'
+
+import { CreatePost } from './components/CreatePost'
 
 export function App() {
   return (
-    <Post
-      title='Fullstack React'
-      content='Learning fullstack React is fun!'
-      author='John Doe'
-    />
+    <CreatePost />
+    // <Post
+    //   title='Fullstack React'
+    //   content='Learning fullstack React is fun!'
+    //   author='John Doe'
+    // />
   )
 }
